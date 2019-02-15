@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda2\lib\site-packages\spyder\app\mainwindow.py", line 2989, in main
+    mainwindow = run_spyder(app, options, args)
+  File "C:\ProgramData\Anaconda2\lib\site-packages\spyder\app\mainwindow.py", line 2893, in run_spyder
+    main.setup()
+  File "C:\ProgramData\Anaconda2\lib\site-packages\spyder\app\mainwindow.py", line 776, in setup
+    self.workingdirectory = WorkingDirectory(self, self.init_workdir, main=self)
+  File "C:\ProgramData\Anaconda2\lib\site-packages\spyder\plugins\workingdirectory.py", line 213, in __init__
+    self.refresh_plugin()
+  File "C:\ProgramData\Anaconda2\lib\site-packages\spyder\plugins\workingdirectory.py", line 255, in refresh_plugin
+    self.save_wdhistory()
+  File "C:\ProgramData\Anaconda2\lib\site-packages\spyder\plugins\workingdirectory.py", line 285, in save_wdhistory
+    encoding.writelines(text, self.LOG_PATH)
+  File "C:\ProgramData\Anaconda2\lib\site-packages\spyder\utils\encoding.py", line 236, in writelines
+    return write(os.linesep.join(lines), filename, encoding, mode)
+  File "C:\ProgramData\Anaconda2\lib\site-packages\spyder\utils\encoding.py", line 227, in write
+    with open(filename, mode) as textfile:
+IOError: [Errno 22] invalid mode ('wb') or filename: u'C:\\Users\\Deepesh K Rana\\.spyder\\workingdir'

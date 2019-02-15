@@ -1,0 +1,7 @@
+
+import pandas as pd
+
+import numpy as np
+import matplotlib as plt
+
+df = pd.read_csv("/home/kunal/Downloads/Loan_Prediction/train.csv") #Reading the dataset in a dataframe using Pandas

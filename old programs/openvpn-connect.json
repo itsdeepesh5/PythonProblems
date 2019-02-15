@@ -1,0 +1,18 @@
+{
+  "black_and_white_icons": false, 
+  "hide_toolbar_duration": false, 
+  "last_connect": {
+    "host": "192.168.11.210", 
+    "user": "drana"
+  }, 
+  "preferred_hosts": {
+    "192.168.11.210": "192.168.11.210", 
+    "199.101.182.203": "199.101.182.203"
+  }, 
+  "recent": {
+    "192.168.11.210": "drana", 
+    "199.101.182.203": "drana"
+  }, 
+  "verbose_tooltip": false, 
+  "vpn_proto": "adaptive"
+}
